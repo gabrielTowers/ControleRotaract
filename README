@@ -13,23 +13,23 @@ O programa armazena todos os dados em um banco de dados Sql, neste programa arma
 Regras de cada tabela:
 
 1 Associados
-  1.1 Os dados nescessários para a inclusão do Associado são: Nome, Data de entrada no Clube e Cargo.
+  1.1 Os dados nescessários para a inclusão do Associado são: Chave primária(fornecida pelo sistema), Nome, Data de entrada no Clube e Cargo.
   1.2 É permitida a exclusão de associados
     1.2.1 Não é permitido a exclusão de associados que tenham dívida
   1.3 É permitido a Alteração de Associados  
     1.3.1 Não é permitido a alterar de data de inclusão do associado
 
 2 Mensalidades
-  2.1 Os dados nescessários para a inclusão de uma Mensalidade são: Mês, Ano e Valor
+  2.1 Os dados nescessários para a inclusão de uma Mensalidade são: Chave primária(fornecida pelo sistema), Mês, Ano e Valor
   2.2 É permitido a Alteração da mensalidade
   2.3 Não é permitido a exclusão de mensalidades
 
 3 Cargos
-  3.1 Os dados nescessários para a inclusão de um Cargo é: Nome do Cargo
+  3.1 Os dados nescessários para a inclusão de um Cargo é: Chave primária(fornecida pelo sistema), Nome do Cargo
   3.2 É permitida a Alteração dos cargos
   3.3 É permitida a exclusão dos cargos
     3.3.1 Não é permitida a exclusão de cargos que tenham Associado ligados a ele
     
 4 Pagamentos
-  4.1 Para realizar uma pagamento é nescessario: Chave estrangeira do Associado, Chave estrangeira da mensalidade e Data de pagamento
+  4.1 Para realizar uma pagamento é nescessario: Chave primária(fornecida pelo sistema), Chave estrangeira do Associado, Chave estrangeira da mensalidade e Data de pagamento
 
