@@ -10,7 +10,7 @@ O programa armazena todos os dados em um banco de dados Sql, neste programa arma
          Cargos(pkCargo, Nome do Cargo)
          Pagamentos(pkPagamento, fkAssociado, fkMensalidade e Data de pagamento)
                             
-Regras de negócio:
+Regras de cada tabela:
 
 1 Associados
   1.1 Os dados nescessários para a inclusão do Associado são: Nome, Data de entrada no Clube e Cargo.
