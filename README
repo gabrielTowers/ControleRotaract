@@ -1,6 +1,6 @@
 Olá este é meu primeiro repositório no GitHub, portanto já peço perdão por erros.
 
-Programado utilizando NetBeans 8.2, banco de dados mariaDB e SGBD HeidSQL
+Programado utilizando NetBeans 8.2, banco de dados MySQL e SGBD HeidSQL
 
 Este programa tem o intuito de facilitar minha vida como tesoureiro do Rotaract CLub, a idéia deste programa era fazer mensagens pradronizadas para a cobrança dos associados do meu clube, somando automaticamente as mensalidades em debito mas dei uma encrementada para que qualquer um possa utilizar.
 O programa armazena todos os dados em um banco de dados Sql, neste programa armazena-se:
